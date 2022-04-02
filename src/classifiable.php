@@ -14,15 +14,13 @@ trait Classifiable
         $this->category = $category;
     }
 
- /*    public function getCreated()
+    public function getCreated()
     {
         return $this->created;
-    } */
+    } 
 
     public function setCreated($created)
     {
         $this->created = $ccreated;
     }
-
-
 }

@@ -28,4 +28,3 @@ $entry = [
 file_put_contents(DATA, serialize($entries));
 header('Location: entry_thanx.php');
 exit;
-

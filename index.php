@@ -25,5 +25,3 @@ $entries = fetchEntries(true);
     </section>
 </body>
 </html>
-
-
