@@ -14,7 +14,7 @@
         <div>
             <label for='category'>Zu welcher Kategorie gehört das Rezept? Bitte eine auswählen</label><br>
                 Vorspeise <input type="radio" name="category" id="category-starter" value="starter" />
-                Hauptgericht <input type="radio" name="category" id="category-main" value="main" checked="checked" />
+                Hauptgericht <input type="radio" name="category" id="category-main" value="Hauptgericht" checked="checked" />
                 Nachtisch<input type="radio" name="category" id="category-dessert" value="dessert" />
                 Salat <input type="radio" name="category" id="category-salad" value="salad" />
                 Suppe <input type="radio" name="category" id="category-soup" value="soup" />

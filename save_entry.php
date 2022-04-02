@@ -19,6 +19,7 @@ $entry = [
     'drink' => trim($recipe->getDrink()),
     'tips' => trim($recipe->getTips()),
     'author' => trim($recipe->getAuthor()),
+    'created' => time(),
  ];
 
  $entries = fetchEntries();

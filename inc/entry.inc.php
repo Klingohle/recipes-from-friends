@@ -13,6 +13,9 @@ spl_autoload_register('autoload');
     <p>Getränkeempfehlung: <?= cleanUp($entry['drink']) ?><p>
     <p>Tipps & Tricks: <?= cleanUp($entry['tips']) ?> <p>
     <p>Autor: <?= cleanUp($entry['author']) ?><p>
-
+    <p>eingetragen 
+        <time datetime="<?= strftime('%Y-%m-%d', $entry['created'])?> "> 
+        <?= strftime('am %d.%m.%Y', $entry['created']) ?> </time>
+    </p>
     <hr style='border-top: 2px double #8c8c8c;'>
 </article>
